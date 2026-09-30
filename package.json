@@ -1,0 +1,35 @@
+{
+  "name": "halisi-verify",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SMS-Based Counterfeit Product Verification and Tracking System - frontend prototype",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "seed:generate": "tsx scripts/generate-seed.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.5",
+    "@supabase/supabase-js": "^2.117.2",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
+    "recharts": "^2.15.3"
+  },
+  "overrides": {
+    "react-is": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.1.7",
+    "tsx": "^4.23.15",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
